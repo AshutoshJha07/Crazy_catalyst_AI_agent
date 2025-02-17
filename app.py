@@ -118,7 +118,7 @@ else:
         model_messages = [{"role": "system", "content": system_prompt}]
         model_messages.extend(truncated_history)
 
-        MODEL_ENDPOINT = "http://192.168.174.15:1234/v1/chat/completions"
+        MODEL_ENDPOINT = "http://localhost:1234/v1/chat/completions"
 
 
         payload = {
