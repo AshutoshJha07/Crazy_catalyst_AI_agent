@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 CRAZY CATALYST - Advanced Business Analyst")
+st.title("🤖 CRAZY CATALYST ")
 st.markdown(
     "**Welcome to CRAZY CATALYST!** "
     "Upload your business data and have a conversation with an AI agent that can interpret, "
