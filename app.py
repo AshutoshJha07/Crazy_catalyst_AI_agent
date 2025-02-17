@@ -118,7 +118,8 @@ else:
         model_messages = [{"role": "system", "content": system_prompt}]
         model_messages.extend(truncated_history)
 
-        MODEL_ENDPOINT = "http://localhost:1234/v1/chat/completions"
+        MODEL_ENDPOINT = "https://39ce-2401-4900-73ed-905e-dd97-f932-dd59-5909.ngrok-free.app/v1/chat/completions"
+
 
 
         payload = {
