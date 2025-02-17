@@ -118,7 +118,7 @@ else:
         model_messages = [{"role": "system", "content": system_prompt}]
         model_messages.extend(truncated_history)
 
-        MODEL_ENDPOINT = "http://localhost:1234/v1/chat/completions"
+        MODEL_ENDPOINT = "http://127.0.0.1:1234/v1/chat/completions"
 
         payload = {
             "model": "deepseek-r1-qwen-7b",  # Replace if your local model name differs
